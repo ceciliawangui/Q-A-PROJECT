@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    width: 1300px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgb(80, 21, 21) 0%, rgb(68, 24, 26) 50%);
+}
+.nav h1{
+    background: none;
+    color: rgb(66, 32, 177);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0px 0px 0px 2rem;
+    text-decoration: none;
+}
+.nav button{
+    padding: 0.06rem 0.03rem;
+    font-size: 1.2rem;
+    border-radius: 10rem;
+    border: none;
+    font-weight: 100;
+    color: black;
+    margin: 0px 0px 0px 2rem;
+    background: linear-gradient(rgb(97, 121, 154) 0%, rgb(176, 193, 217) 50%);
+    background-size: 10px;
+    width: 200px;
+}
